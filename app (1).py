@@ -4,7 +4,7 @@ import os
 from utils import generate_visualizations, get_gemini_response_multiple, parse_gemini_response_multiple, get_gemini_response, parse_gemini_response
 
 # Set up Google Gemini API key
-GENAI_API_KEY = os.environ["GOOGLE_API_KEY"]  # Replace with your actual Gemini API key
+GENAI_API_KEY = os.environ["AIzaSyAu6s-gdY4it5PpgYSbSeD-3ZYN6VdNYeQ"]  # Replace with your actual Gemini API key
 
 # Streamlit UI components
 st.set_page_config(page_title="AI-Vizz : Data Visualization and Insights", layout="wide")
